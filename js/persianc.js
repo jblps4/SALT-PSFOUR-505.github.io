@@ -7,7 +7,7 @@ function showdate() {
     months = new Array("فروردين","ارديبهشت","خرداد","تير","مرداد","شهريور","مهر","آبان","آذر","دی","بهمن","اسفند");
     a = new Date();
     d= a.getDay();
-    day= a.getDate()+0;
+    day= a.getDate()+1;
     month = a.getMonth()+1;
     year= a.getYear();
 

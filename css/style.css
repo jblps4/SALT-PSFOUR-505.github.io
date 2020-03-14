@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'BTABSSOM';
-  src: URL('BTABSSOM.TTF') format('truetype');
+  src: URL('BTABSSOM.ttf') format('truetype');
 }
 @font-face {
   font-family: 'PWSchoolScript';
@@ -224,7 +224,8 @@ mark {padding-left: 10px; padding-right: 10px; color:white; background-color: rg
 .gameTitle{
 	position: absolute;
 	color: white;
-	font-size: 1.5em;
+	font-size: 1.3em;
+	margin-top: 0.2em;
 	font-family: BTABSSOM;
 	transform: translate(0em,0em);
 	direction:rtl;
@@ -233,7 +234,8 @@ mark {padding-left: 10px; padding-right: 10px; color:white; background-color: rg
 .gameTitle2{
 	position: absolute;
 	color: white;
-	font-size: 1.5em;
+	font-size: 1.3em;
+	margin-top: 0.2em;
 	font-family: BTABSSOM;
 	transform: translate(0em,0em);
 	direction:rtl;
@@ -242,7 +244,8 @@ mark {padding-left: 10px; padding-right: 10px; color:white; background-color: rg
 .gameTitle3{
 	position: absolute;
 	color: white;
-	font-size: 1.5em;
+	font-size: 1.3em;
+	margin-top: 0.2em;
 	font-family: BTABSSOM;
 	transform: translate(0em,0em);
 	direction:rtl;
@@ -273,8 +276,8 @@ mark {padding-left: 10px; padding-right: 10px; color:white; background-color: rg
 	background-image: url("../images/hen18.png");
 }
 
-.hen211{
-	background-image: url("../images/hen211.png");
+.hen213{
+	background-image: url("../images/hen213.png");
 }
 
 .hen212{
@@ -361,10 +364,6 @@ mark {padding-left: 10px; padding-right: 10px; color:white; background-color: rg
 	background-image: url("../images/gta.png");
 }
 
-.ps4debug{
-	background-image: url("../images/ps4debug.png");
-}
-
 .db_backup{
 	background-image: url("../images/db_backup.png");
 }
@@ -401,6 +400,9 @@ mark {padding-left: 10px; padding-right: 10px; color:white; background-color: rg
 	background-image: url("../images/about.png");
 }
 
+.debug{
+	background-image: url("../images/debug.png");
+}
 
 /*waves****************************/
 

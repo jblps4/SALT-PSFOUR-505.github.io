@@ -41,12 +41,12 @@ $(document).ready(function(){
 	function timeout() {
 	    setTimeout(function () {
 	    	if(time===0){
-				$("#textInfo").text("PS4 BlueBox v2.4");
+				$("#textInfo").text("PS4 BlueBox v2.5.1");
 				$("#textInfo").addClass("animated slideInDown");
 				time++;
 			}else
 				if(time===1){
-				$("#textInfo").text("by : reza @REZACJ24618");
+				$("#textInfo").text("by : REZA");
 				$("#textInfo").addClass("animated slideInDown");
 				time++;
 			}else
